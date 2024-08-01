@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+body{
+    width: 1440px;
+    height: 4976px;
+    background: #02061A;
+    margin: 0 auto;
+}
+
+.svg-radial{
+    position: relative;
+}
+.svg-radial>img{
+    position: absolute;
+    top: -245px;
+    left: -103px;
+    z-index: 3;
+}
+.svg-radial>svg{
+    position: absolute;
+    top: -245px;
+    left: -103px;
+    z-index: 2;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 102px;
+}
+header>nav>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 71px;
+    list-style-type: none;
+    margin-right: 187px ;
+    margin-left: 554px;
+}
+div.svg-radial>p{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 187px;
+}
+header>nav>ul>li>a{
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-family: Outfit,sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.discover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discover>div>p{
+    color: #FFF;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 522px;
+    height: 233px;
+    margin-top: 327px;
+    margin-bottom: 31px;
+}
+.sell-buy>button:first-of-type{
+    width: 256px;
+    height: 95px;
+    border-radius: 50px;
+    background: #23263C;
+    color: #FFF;
+    text-align: center;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+    margin-right: 22px;
+}
+
+.sell-buy>button:last-of-type{
+    width: 256px;
+    height: 95px;
+    border-radius: 50px;
+    border: 3px solid #23263C;
+    background-color:  #02061A;
+    color: #FFF;
+    text-align: center;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.discover>div>img{
+    margin-top: 188px;
+    width: 467px;
+    height: 461px;
+    border-radius: 10px;
+}
+.featured{
+    margin-top: 216px;
+    margin-left: 189px;
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.binance>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 138px;
+    width: 1065px;
+    height: 125px;
+    flex-shrink: 0;
+    border: 1px solid #5BD2BD;
+    background: #23263C;
+    margin-top: 8px;
+    margin-left: 189px;
+    list-style-type: none;
+}
+.binance>ul>li>a{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.white-color{
+    color: #FFF;
+    text-align: center;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    opacity: 0.5;
+}
+.nft>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.nft>div>div>img{
+    width: 428px;
+    height: 480px;
+    margin-top: 256px;
+    margin-left: 239px;
+}
+.nft>div>div>h4{
+    margin-top: 197px;
+    margin-right: 176px;
+    color: #FFF;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    height: 219px;
+    width: 542px;
+    line-height: 73px; /* 121.667% */
+}
+.green-nft{
+    color: #56CAB1;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73px;
+}
+.nft>div>div>p:first-of-type{
+    width: 521px;
+    color: #4C99BB;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px; /* 119.231% */
+}
+.nft>div>div>p:last-of-type{
+    color: #FFF;
+    height: 100px;
+    width: 418px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.nft>div>div>p:last-of-type>svg{
+    width: 40px;
+    padding-top: 10px;
+    height: 40px;
+
+}
+.double-button{
+    margin-top: 13px;
+}
+.double-button>button:last-of-type{
+    position: relative;
+    top: 6px;
+    left: 5px;
+    width: 126px;
+    height: 68px;
+    border-radius: 16px;
+    border: 1px solid #56CAB1;
+    color: #FFF;
+    background: transparent;;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+.double-button>button:first-of-type{
+    width: 126px;
+    height: 68px;
+    border-radius: 16px;
+    border: 1px solid #56CAB1;
+    color: #FFF;
+    background: #00061a;
+    position: absolute;
+}
+
+table{
+    margin-top: 34px;
+    width: 521px;
+    height: 132px;
+    border-radius: 18px;
+    background: #3A5B6A;
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.flex-two-monkey{
+    display: flex;
+
+}
+.two-monkey>div>div:first-of-type>h3{
+    color: #FFF;
+    width: 465px;
+    height: 212px;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 530px;
+    margin-left: 188px;
+}
+.two-monkey>div>div:first-of-type>button{
+    margin-top: 58px;
+    margin-left: 188px;
+    width: 450px;
+    height: 96px;
+    border-radius: 100px;
+    border: 3px solid rgba(84, 197, 173, 0.95);
+    background: #1F143B;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    color: #56CAB1;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.star{
+    /*position: absolute;*/
+
+    margin-top: 230px;
+    width: 380px;
+    height: 466px;
+    transform: rotate(-25.337deg);
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(137, 130, 130, 0.50);
+    mix-blend-mode: screen;
+}
+.star>img{
+    width: 380px;
+    height: 323px;
+}
+.star>h4{
+    margin-top: 12px;
+    margin-left: 29px;
+    color: #56CAB1;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #02061A;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.star>p{
+    margin-top: 15px;
+    margin-left: 38px;
+    margin-bottom: 22px;
+    color: #FFF;
+    width: 178px;
+    height: 46px;
+    flex-shrink: 0;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.of{
+    color: #23263C;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.glasses{
+    position: relative;
+    margin-top: 310px;
+    width: 375px;
+    height: 507px;
+    border-radius: 10px;
+    background: rgba(137, 130, 130, 0.50);
+    margin-left: -100px;
+}
+.glasses>img{
+    width: 374px;
+    height: 358px;
+}
+.glasses>h4{
+    margin-top: 12px;
+    margin-left: 29px;
+    color: #56CAB1;
+    width: 222px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #02061A;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.glasses>div>p{
+    margin-left: 15px;
+    color: #FFF;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.glasses>div{
+    display: flex;
+}
+.free{
+    margin-left: 11px;
+    border-radius: 3px;
+    border: 2px solid #000;
+    background: #1F143B;
+    width: 147px;
+    height: 51px;
+    color: #52A7C6;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #02061A;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.test{
+    color: #5BD2BF;
+    margin-top: 251px;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.read{
+    color: #FFF;
+    margin-left: 507px;
+    margin-top: 4px;
+    text-align: center;
+    width: 427px;
+    height: 152px;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.persons>div{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+}
+.persons>div>div{
+    margin-top: 125px;
+    width: 345px;
+    height: 360px;
+    border-radius: 10px;
+    background: #24293F;
+    position: relative;
+}
+.persons>div>div>img{
+    position: absolute;
+    top: -75px;
+    right: 94px;
+    width: 155px;
+    height: 150px;
+    background:  lightgray 50% / cover no-repeat;
+    mix-blend-mode: luminosity;
+    border-radius: 360px;
+
+}
+.persons>div>div>h5{
+    margin-top: 83px;
+    width: 327px;
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.persons>div>div>span.othman{
+    width: 327px;
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.persons>div>div>span.othman>h5{
+    margin-top: 83px;
+}
+.persons>div>div>p{
+    margin-top: 27px;
+    color: #FFF;
+    width: 302px;
+    height: 125px;
+    margin-left: 24px;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.project>div{
+    margin-top: 208px;
+    margin-left: 188px;
+    width: 1063px;
+    height: 378px;
+    border-radius: 20px;
+    background: linear-gradient(97deg, #1F143B -19.45%, #3C8273 103.56%);
+}
+.project>div>h3{
+    color: #FFF;
+    width: 312px;
+    height: 180px;
+    margin: 24px 376px 39px 376px;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 100% */
+}
+.project>div>button{
+    width: 344px;
+    margin-left: 360px;
+    height: 85px;
+    border-radius: 50px;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    border: none;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 150% */
+    text-transform: uppercase;
+}
+footer>.bottom{
+    margin-top: 262px;
+    margin-left: 191px;
+    margin-right: 191px;
+    display: flex;
+    gap: 118px;
+    justify-content: center;
+    align-items: flex-start;
+}
+footer>.bottom>div>h4{
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+footer>.bottom>div>p{
+    color: #FFF;
+    margin-top: 20px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+footer>.bottom>div>div{
+    margin-top: 9px;
+    display: flex;
+    width: 253px;
+    height: 60px;
+    border-radius: 50px;
+    background: #3B7C70;
+    color: #FFF;
+    opacity: 0.8;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+footer>.bottom>div>div>p{
+    margin-top: 17px;
+    margin-left: 12px;
+}
+footer>.bottom>div>div>button{
+    width: 100px;
+    height: 60px;
+    border-radius: 50px;
+    background: #262E48;
+    border: none;
+    color: #FFF;
+    margin-left: 46px;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
